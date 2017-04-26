@@ -27,10 +27,17 @@
 *.i*86
 *.x86_64
 *.hex
+writer_no_lock
+writer_with_lock
+reader_with_lock
+producer
+consumer
 
 # Debug files
 *.dSYM/
 *.su
 
 # Misc
-*.~
+*.*~
+*~
+*.csv
